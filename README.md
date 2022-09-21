@@ -4,7 +4,7 @@ Nereus: A Distributed Stream Band Join System with Adaptive Range Partitioning
 
 Many real-time stream processing applications in consumer electronics rely on band join as a basic operation. For each data of one stream, stream band join querys all of the data from another stream within given range of it. Resource efficient band join relys on proper range partitioning, which maps data to partitions of given range. However, the distribution of real-world stream data over the static range is skewed. This causes serious load imbalance among instances in the distributed system, and reduces the system performance.
 
-In this work, we propose an Adaptive Range Partitioning to ensure a appropriate number of partitions and load balancing with low migration cost, and implement the distributed stream band join system, Nereus. Extensive experiment results reported for real-world datasets generated from consumer electronics show that Nereus improves the throughput by 51\% and reduces the processing latency by 99\%, compared to existing method.
+In this work, we propose an Adaptive Range Partitioning to ensure a appropriate number of partitions and load balancing with low migration cost, and implement the distributed stream band join system, Nereus. Extensive experiment results reported for real-world datasets generated from consumer electronics show that Nereus greatly improve the system performance, compared to existing method.
 
 
 ## Building Nereus

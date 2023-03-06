@@ -22,14 +22,14 @@ We have two insights for the two schemes. First, the disadvantage's influences o
 
 # Architecture of Nereus
 <div align=center>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/architecture.jpg" width="600" height="400" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/architecture.jpg" width="600" height="400" alt="Proportional incremental strategy"/>
 </div>
 
  
 # Adaptive Range Partitioning
 ## The four migration operations
 <div align=center>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/migrationschemes.png" width="400" height="400" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/migrationschemes.png" width="400" height="400" alt="Proportional incremental strategy"/>
 </div>
 
 ## Migration Benefit Model
@@ -37,7 +37,7 @@ We have two insights for the two schemes. First, the disadvantage's influences o
 The total benefit: $B=B_n+B_l$
 
 <div align=center>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/router-instance.png" width="400" height="200" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/router-instance.png" width="400" height="200" alt="Proportional incremental strategy"/>
 </div>
 
 # About the source code and data sets
@@ -61,18 +61,18 @@ Here, we show the result on dataset of the real-world DiDi Chuxing gaia initiati
 We compare the performance of the basic method, Nereus, and BiStream. The basic method employs join-biclique model and static range partitioning. The basic method allocates a partition in an instance. For Nereus, we adopt adaptive range partitioning. By default, we initialize the number of partitions in each instance to three. We compare the throughput and processing latency of the basic method, Nereus, and BiStream systems, and collect the values in four primary metrics across Nereus runs. The metrics include the load, $LI$, the diameter of the partition connection network, and the number of partitions.
 
 <div align=center>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/throughput-4700032000.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/latency-47000.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/load.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/numPartitions.png" width="200" height="150" alt="Proportional incremental strategy"/><br/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/throughput-4700032000.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/latency-47000.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/load.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/numPartitions.png" width="200" height="150" alt="Proportional incremental strategy"/><br/>
 </div>
 
 
 <div align=center>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/latency-onlyModifying-JumpConti-NonMig.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/latency-throughput-numPar.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/parallelism-throughput.png" width="200" height="150" alt="Proportional incremental strategy"/>
-<img src="https://github.com/shuiying1037/Nereus/blob/main/src/main/resources/parallelism-latency.png" width="200" height="150" alt="Proportional incremental strategy"/><br/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/latency-onlyModifying-JumpConti-NonMig.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/latency-throughput-numPar.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/parallelism-throughput.png" width="200" height="150" alt="Proportional incremental strategy"/>
+<img src="https://github.com/CGCL-codes/Nereus/blob/main/src/main/resources/parallelism-latency.png" width="200" height="150" alt="Proportional incremental strategy"/><br/>
 </div>
  
  ## Publication
@@ -83,7 +83,7 @@ Shuiying Yu, Hanhua Chen, Hai Jin. Nereus: A Distributed Stream Band Join System
 
 ## Authors and Copyright
 
-Auxo is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China by Shuiying Yu (shuiying@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Hai Jin (hjin@hust.edu.cn).
+Nereus is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China by Shuiying Yu (shuiying@hust.edu.cn), Hanhua Chen (chen@hust.edu.cn), Hai Jin (hjin@hust.edu.cn).
 
 Copyright (C) 2021, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](https://www.hust.edu.cn/).
 
